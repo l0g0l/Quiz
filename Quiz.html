@@ -11,8 +11,12 @@
     
 </head>
 <body>
+      <nav id="nav">
+        <a id="0" href="#5"><img class=" imgformatflechaabajo" src="./img/flecha-hacia-abajo.png" alt="Flecha señalando para ir al final de la página"></a>
 
+      </nav>
 <main>
+
     <form id="formulario">
 
       <div class="format" id="1">
@@ -36,12 +40,12 @@
             <input id="llevar" type="radio" name="pregunta1" value="llevar"><br>
            
         </fieldset>
-        <button class="button"><a class="formatlink" href="#2">Palante</a></button>
+        <button class="button-resp"><a class="formatlink" href="#2">Palante</a></button>
         
       </div>
       
 
-      <div id="2">
+      <div class="format" id="2">
 
           <fieldset>
 
@@ -62,11 +66,11 @@
               <input id="queso" type="radio" name="pregunta2" value="queso"><br>
            
           </fieldset>
-          <button class="button"><a class="formatlink" href="#3">Palante</a></button>
-          <button class="button"><a class="formatlink" href="#1">Patrás</a></button>
+          <button class="button-resp"><a class="formatlink" href="#3">Palante</a></button>
+          <button class="button-resp"><a class="formatlink" href="#1">Patrás</a></button>
         </div>
 
-        <div id="3">
+        <div class="format" id="3">
 
         
           <fieldset>
@@ -88,11 +92,11 @@
               <input id="novio" type="radio" name="pregunta3" value="novio"><br>
            
           </fieldset>
-          <button class="button"><a class="formatlink" href="#4">Palante</a></button>
-          <button class="button"><a class="formatlink" href="#2">Patrás</a></button>
+          <button class="button-resp"><a class="formatlink" href="#4">Palante</a></button>
+          <button class="button-resp"><a class="formatlink" href="#2">Patrás</a></button>
         </div>
 
-        <div id="4">
+        <div class="format" id="4">
 
         
           <fieldset>
@@ -116,10 +120,10 @@
           </fieldset>
           
         </div>
-        <button class="button"><a class="formatlink" href="#5">Palante</a></button>
-        <button class="button"><a class="formatlink" href="#3">Patrás</a></button>
+        <button class="button-resp"><a class="formatlink" href="#5">Palante</a></button>
+        <button class="button-resp"><a class="formatlink" href="#3">Patrás</a></button>
 
-        <div id="5">
+        <div class="format" id="5">
 
         
           <fieldset>
@@ -136,27 +140,39 @@
   
               <label for="allegados">Primero me surtiría yo y lo que me sobrara, que siempre sobra, lo repartiría con mis allegados</label>
               <input id="allegados" type="radio" name="pregunta5" value="allegados"><br>
-  
+
+           
               <label for="calabacín">A quien se le ocurra cojerme un solo calabacín...</label>
               <input id="calabacín" type="radio" name="pregunta5   " value="calabacín">
-           
+            
+
           </fieldset>
           
           </div>
-          <button class="button"><a class="formatlink" href="#4">Patrás</a></button><br>
+          <button class="button-resp"><a class="formatlink" href="#4">Patrás</a></button><br>
       
-        <button class="button" type="submit" value="submit">¿Cuántas he acertado?</button>
-        <input class="button" type="reset" value="Borrón y cuenta nueva"></input>
-        <div>
-          <a href="#1"><img id="imgformatflecha"src="./img/flecha.png" alt="Flecha indicando al comienzo de la página"></a>
-  
-      </div>
+        <button class="button-resp" type="submit" value="submit" >¿Cuántas he acertado?</button>
+        <input class="button-resp" type="reset" value="Borrón y cuenta nueva"></input>
+       
        
     </form>
 
 </main>
+
 <footer>
-  <a href="./Index.html"><img class="home" src="./img/home.png" alt="Icono casita para ir a la Home"></a>
+
+  <div>
+    <a  href="./Index.html"><img class="home" src="./img/home.png" alt="Icono casita para ir a la Home"></a>
+
+  </div>
+  <div>
+
+    <a id="6" href="#0"><img class="imgformatflecha"src="./img/flecha.png" alt="Flecha indicando al comienzo de la página"></a>
+  </div>
+   
+
+</div>
+ 
 </footer>
 
 <script src="./js/Quiz.js"></script>
